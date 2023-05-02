@@ -10,7 +10,7 @@ public class UserInput {
 		String input = sc.next();
 
 		if ((input.charAt(0) >= '0') && (input.charAt(0) <= '9')) {
-			System.out.println("number");
+			System.out.println("number is");
 		} else if ((input.charAt(0) >= 'a') && (input.charAt(0) <= 'z')) {
 			System.out.println("String");
 		} else {
